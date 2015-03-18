@@ -1,0 +1,18 @@
+150316 141449.398|CONFIG|main|setFileHandlers|Now logging to /home/caleb/pc2-9.2.4/bin/logs directory.
+150316 141449.401|INFO|main|info|
+150316 141449.406|INFO|main|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.8.0_31 build 2837 Linux 3.18.9-200.fc21.x86_64 (amd64) 
+150316 141449.407|INFO|main|startLog|Working directory is /home/caleb/pc2-9.2.4/bin
+150316 141449.416|INFO|main|startLog|Process id is 4993@localhost.localdomain
+150316 141449.417|INFO|main|start|Starting ConnectionManager...
+150316 141449.471|INFO|main|start|Started ConnectionManager
+150316 141449.475|INFO|main|info|Contacting server at localhost:50002
+150316 141449.476|INFO|main|connectToMyServer|Connecting to localhost:50002
+150316 141449.484|INFO|main|<init>|IO Exception:localhost
+150316 141449.485|INFO|main|connectToMyServer|Could not ConnectToMyServer()
+150316 141449.485|INFO|main|start|Exception logged 
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection refused
+|    at edu.csus.ecs.pc2.core.transport.TransportManager.connectToMyServer (TransportManager.java:197)
+|    at edu.csus.ecs.pc2.core.transport.connection.ConnectionManager.connectToMyServer (ConnectionManager.java:99)
+|    at edu.csus.ecs.pc2.core.InternalController.start (InternalController.java:2261)
+|    at edu.csus.ecs.pc2.Starter.main (Starter.java:49)
+150316 141449.486|INFO|main|info|Unable to contact server at localhost:0 Connection refused

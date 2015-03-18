@@ -1,0 +1,449 @@
+150316 141608.368|CONFIG|Thread-5|setFileHandlers|Now logging to /home/caleb/pc2-9.2.4/bin/logs directory.
+150316 141608.368|INFO|Thread-5|info|
+150316 141608.369|INFO|Thread-5|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.8.0_31 build 2837 Linux 3.18.9-200.fc21.x86_64 (amd64) 
+150316 141608.369|INFO|Thread-5|info|Login: team1 (aka team1)
+150316 141608.369|INFO|Thread-5|startLog|Working directory is /home/caleb/pc2-9.2.4/bin
+150316 141608.374|INFO|Thread-5|startLog|Process id is 5033@localhost.localdomain
+150316 141608.375|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+150316 141608.391|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+150316 141608.710|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+150316 141608.713|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #9 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141608.713|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #9 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141714.300|INFO|Thread-6|info| receiveObject(S) start got Packet[ADD_SETTING] #12 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 141714.300|INFO|Thread-6|dumpPacket|Packet ADD_SETTING (Seq #12 ) recieveObject
+150316 141714.301|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141714.301|INFO|Thread-6|dumpPacket|    To: SERVER0 @ site 0
+150316 141714.301|INFO|Thread-6|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem Standard Input
+150316 141714.301|INFO|Thread-6|info|handlePacket start Packet[ADD_SETTING] #12 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 141714.302|INFO|Thread-6|dumpPacket|Packet ADD_SETTING (Seq #12 ) handlePacket
+150316 141714.302|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141714.302|INFO|Thread-6|dumpPacket|    To: SERVER0 @ site 0
+150316 141714.303|INFO|Thread-6|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem Standard Input
+150316 141714.307|INFO|Thread-6|info|handlePacket end Packet[ADD_SETTING] #12 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 141714.308|INFO|Thread-6|info| receiveObject(S) end   got Packet[ADD_SETTING] #12 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 141721.311|INFO|Thread-7|info| receiveObject(S) start got Packet[ADD_SETTING] #13 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 141721.312|INFO|Thread-7|dumpPacket|Packet ADD_SETTING (Seq #13 ) recieveObject
+150316 141721.312|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141721.312|INFO|Thread-7|dumpPacket|    To: SERVER0 @ site 0
+150316 141721.313|INFO|Thread-7|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language Java
+150316 141721.313|INFO|Thread-7|info|handlePacket start Packet[ADD_SETTING] #13 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 141721.313|INFO|Thread-7|dumpPacket|Packet ADD_SETTING (Seq #13 ) handlePacket
+150316 141721.314|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141721.314|INFO|Thread-7|dumpPacket|    To: SERVER0 @ site 0
+150316 141721.314|INFO|Thread-7|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language Java
+150316 141721.318|INFO|Thread-7|info|handlePacket end Packet[ADD_SETTING] #13 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 141721.319|INFO|Thread-7|info| receiveObject(S) end   got Packet[ADD_SETTING] #13 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 141724.725|INFO|Thread-8|info| receiveObject(S) start got Packet[CLOCK_STARTED] #14 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 141724.725|INFO|Thread-8|dumpPacket|Packet CLOCK_STARTED (Seq #14 ) recieveObject
+150316 141724.725|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141724.726|INFO|Thread-8|dumpPacket|    To: SERVER0 @ site 0
+150316 141724.726|INFO|Thread-8|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+150316 141724.726|INFO|Thread-8|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+150316 141724.727|INFO|Thread-8|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1426533444677,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2015,MONTH=2,WEEK_OF_YEAR=12,WEEK_OF_MONTH=3,DAY_OF_MONTH=16,DAY_OF_YEAR=75,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=17,SECOND=24,MILLISECOND=677,ZONE_OFFSET=0,DST_OFFSET=0]
+150316 141724.727|INFO|Thread-8|info|handlePacket start Packet[CLOCK_STARTED] #14 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 141724.727|INFO|Thread-8|dumpPacket|Packet CLOCK_STARTED (Seq #14 ) handlePacket
+150316 141724.728|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141724.728|INFO|Thread-8|dumpPacket|    To: SERVER0 @ site 0
+150316 141724.728|INFO|Thread-8|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+150316 141724.728|INFO|Thread-8|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+150316 141724.729|INFO|Thread-8|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1426533444677,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2015,MONTH=2,WEEK_OF_YEAR=12,WEEK_OF_MONTH=3,DAY_OF_MONTH=16,DAY_OF_YEAR=75,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=17,SECOND=24,MILLISECOND=677,ZONE_OFFSET=0,DST_OFFSET=0]
+150316 141724.730|INFO|Thread-8|contestStarted|debug ContestTime site 1 STARTED 0:00:00
+150316 141724.730|INFO|Thread-8|info|Clock for site 1 started by ADMINISTRATOR1 @ site 1 elapsed 0:00:00
+150316 141724.731|INFO|Thread-8|info| receiveObject(S) end   got Packet[CLOCK_STARTED] #14 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 141744.125|INFO|Thread-9|testRun|test run for Standard Input Java file: /home/caleb/Documents/Test.java
+150316 141744.143|DEBUG|Thread-9|compileProgram|before substitution: javac {:mainfile}
+150316 141744.144|DEBUG|Thread-9|compileProgram|after  substitution: javac Test.java
+150316 141744.155|CONFIG|Thread-9|runProgram|executing: 'javac Test.java'
+150316 141748.976|DEBUG|Thread-9|executeProgram|before substitution: java {:basename}
+150316 141748.977|DEBUG|Thread-9|executeProgram|after  substitution: java Test
+150316 141748.978|CONFIG|Thread-9|runProgram|executing: 'java Test'
+150316 141756.137|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Standard Input Java file: /home/caleb/Documents/Test.java
+150316 141756.138|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 141756.139|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 141756.186|INFO|Thread-17|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #15 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141756.186|INFO|Thread-17|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #15 ) recieveObject
+150316 141756.187|INFO|Thread-17|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141756.187|INFO|Thread-17|dumpPacket|    To: TEAM1 @ site 1
+150316 141756.187|INFO|Thread-17|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 QUEUED_FOR_COMPUTER_JUDGEMENT31454 ms from TEAM1 @ site 1 id Run--1496787988951540026
+150316 141756.188|INFO|Thread-17|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #15 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141756.188|INFO|Thread-17|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #15 ) handlePacket
+150316 141756.188|INFO|Thread-17|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141756.188|INFO|Thread-17|dumpPacket|    To: TEAM1 @ site 1
+150316 141756.189|INFO|Thread-17|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 QUEUED_FOR_COMPUTER_JUDGEMENT31454 ms from TEAM1 @ site 1 id Run--1496787988951540026
+150316 141757.904|INFO|Thread-17|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #15 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141856.367|INFO|Thread-18|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #23 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141856.368|INFO|Thread-18|dumpPacket|Packet RUN_JUDGEMENT (Seq #23 ) recieveObject
+150316 141856.368|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141856.368|INFO|Thread-18|dumpPacket|    To: TEAM1 @ site 1
+150316 141856.369|INFO|Thread-18|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150316 141856.369|INFO|Thread-18|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Compilation Error-2519521900228323525 id JudgementRecord--1467134317327196085
+150316 141856.370|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 JUDGED31454 ms from TEAM1 @ site 1 id Run--1496787988951540026
+150316 141856.370|INFO|Thread-18|info|handlePacket start Packet[RUN_JUDGEMENT] #23 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141856.370|INFO|Thread-18|dumpPacket|Packet RUN_JUDGEMENT (Seq #23 ) handlePacket
+150316 141856.370|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141856.370|INFO|Thread-18|dumpPacket|    To: TEAM1 @ site 1
+150316 141856.371|INFO|Thread-18|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150316 141856.371|INFO|Thread-18|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Compilation Error-2519521900228323525 id JudgementRecord--1467134317327196085
+150316 141856.371|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 JUDGED31454 ms from TEAM1 @ site 1 id Run--1496787988951540026
+150316 141921.495|INFO|Thread-18|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #23 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141925.327|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Standard Input Java file: /home/caleb/Documents/Test.java
+150316 141925.328|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #4 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 141925.329|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #4 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 141925.357|INFO|Thread-20|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #25 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141925.358|INFO|Thread-20|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #25 ) recieveObject
+150316 141925.361|INFO|Thread-20|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141925.362|INFO|Thread-20|dumpPacket|    To: TEAM1 @ site 1
+150316 141925.363|INFO|Thread-20|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 2 QUEUED_FOR_COMPUTER_JUDGEMENT120638 ms from TEAM1 @ site 1 id Run--4494107507522667395
+150316 141925.363|INFO|Thread-20|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #25 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141925.363|INFO|Thread-20|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #25 ) handlePacket
+150316 141925.363|INFO|Thread-20|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141925.364|INFO|Thread-20|dumpPacket|    To: TEAM1 @ site 1
+150316 141925.364|INFO|Thread-20|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 2 QUEUED_FOR_COMPUTER_JUDGEMENT120638 ms from TEAM1 @ site 1 id Run--4494107507522667395
+150316 141926.383|INFO|Thread-20|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #25 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141926.649|INFO|Thread-21|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #29 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141926.650|INFO|Thread-21|dumpPacket|Packet RUN_JUDGEMENT (Seq #29 ) recieveObject
+150316 141926.650|INFO|Thread-21|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141926.650|INFO|Thread-21|dumpPacket|    To: TEAM1 @ site 1
+150316 141926.650|INFO|Thread-21|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150316 141926.651|INFO|Thread-21|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Compilation Error-2519521900228323525 id JudgementRecord--2961387359535776112
+150316 141926.651|INFO|Thread-21|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 2 JUDGED120638 ms from TEAM1 @ site 1 id Run--4494107507522667395
+150316 141926.651|INFO|Thread-21|info|handlePacket start Packet[RUN_JUDGEMENT] #29 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141926.651|INFO|Thread-21|dumpPacket|Packet RUN_JUDGEMENT (Seq #29 ) handlePacket
+150316 141926.652|INFO|Thread-21|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141926.652|INFO|Thread-21|dumpPacket|    To: TEAM1 @ site 1
+150316 141926.652|INFO|Thread-21|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150316 141926.652|INFO|Thread-21|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Compilation Error-2519521900228323525 id JudgementRecord--2961387359535776112
+150316 141926.653|INFO|Thread-21|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 2 JUDGED120638 ms from TEAM1 @ site 1 id Run--4494107507522667395
+150316 141928.448|INFO|Thread-21|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #29 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141930.759|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Standard Input Java file: /home/caleb/Documents/Test.java
+150316 141930.760|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #5 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 141930.762|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #5 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 141930.786|INFO|Thread-23|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #31 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141930.787|INFO|Thread-23|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #31 ) recieveObject
+150316 141930.787|INFO|Thread-23|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141930.788|INFO|Thread-23|dumpPacket|    To: TEAM1 @ site 1
+150316 141930.788|INFO|Thread-23|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 QUEUED_FOR_COMPUTER_JUDGEMENT126060 ms from TEAM1 @ site 1 id Run-5294212074929225904
+150316 141930.790|INFO|Thread-23|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #31 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141930.790|INFO|Thread-23|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #31 ) handlePacket
+150316 141930.792|INFO|Thread-23|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141930.793|INFO|Thread-23|dumpPacket|    To: TEAM1 @ site 1
+150316 141930.793|INFO|Thread-23|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 QUEUED_FOR_COMPUTER_JUDGEMENT126060 ms from TEAM1 @ site 1 id Run-5294212074929225904
+150316 141931.901|INFO|Thread-24|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #35 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141931.902|INFO|Thread-24|dumpPacket|Packet RUN_JUDGEMENT (Seq #35 ) recieveObject
+150316 141931.902|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141931.903|INFO|Thread-24|dumpPacket|    To: TEAM1 @ site 1
+150316 141931.903|INFO|Thread-24|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150316 141931.903|INFO|Thread-24|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Compilation Error-2519521900228323525 id JudgementRecord-5720539590851517687
+150316 141931.903|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 JUDGED126060 ms from TEAM1 @ site 1 id Run-5294212074929225904
+150316 141931.904|INFO|Thread-24|info|handlePacket start Packet[RUN_JUDGEMENT] #35 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141931.904|INFO|Thread-24|dumpPacket|Packet RUN_JUDGEMENT (Seq #35 ) handlePacket
+150316 141931.904|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 141931.904|INFO|Thread-24|dumpPacket|    To: TEAM1 @ site 1
+150316 141931.904|INFO|Thread-24|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150316 141931.905|INFO|Thread-24|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Compilation Error-2519521900228323525 id JudgementRecord-5720539590851517687
+150316 141931.905|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 JUDGED126060 ms from TEAM1 @ site 1 id Run-5294212074929225904
+150316 141934.916|INFO|Thread-24|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #35 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 141937.559|INFO|Thread-23|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #31 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142001.023|INFO|AWT-EventQueue-0|submitClarification|submit clarification for Standard Input WHAAAATT>>>???
+150316 142001.024|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[CLARIFICATION_SUBMISSION] #6 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142001.025|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[CLARIFICATION_SUBMISSION] #6 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142001.071|INFO|Thread-26|info| receiveObject(S) start got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #37 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142001.072|INFO|Thread-26|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #37 ) recieveObject
+150316 142001.073|INFO|Thread-26|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142001.074|INFO|Thread-26|dumpPacket|    To: TEAM1 @ site 1
+150316 142001.076|INFO|Thread-26|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 1 NEW from TEAM1 @ site 1 at 2 id=Clarification--7189248014281604781
+150316 142001.078|INFO|Thread-26|info|handlePacket start Packet[CLARIFICATION_SUBMISSION_CONFIRM] #37 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142001.081|INFO|Thread-26|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #37 ) handlePacket
+150316 142001.083|INFO|Thread-26|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142001.085|INFO|Thread-26|dumpPacket|    To: TEAM1 @ site 1
+150316 142001.087|INFO|Thread-26|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 1 NEW from TEAM1 @ site 1 at 2 id=Clarification--7189248014281604781
+150316 142001.092|INFO|Thread-26|info| receiveObject(S) end   got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #37 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142049.870|INFO|AWT-EventQueue-0|submitClarification|submit clarification for Standard Input waty
+150316 142049.871|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[CLARIFICATION_SUBMISSION] #7 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142049.871|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[CLARIFICATION_SUBMISSION] #7 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142049.894|INFO|Thread-28|info| receiveObject(S) start got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #38 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142049.895|INFO|Thread-28|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #38 ) recieveObject
+150316 142049.895|INFO|Thread-28|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142049.896|INFO|Thread-28|dumpPacket|    To: TEAM1 @ site 1
+150316 142049.896|INFO|Thread-28|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 2 NEW from TEAM1 @ site 1 at 3 id=Clarification-5089562146275414938
+150316 142049.896|INFO|Thread-28|info|handlePacket start Packet[CLARIFICATION_SUBMISSION_CONFIRM] #38 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142049.897|INFO|Thread-28|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #38 ) handlePacket
+150316 142049.897|INFO|Thread-28|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142049.897|INFO|Thread-28|dumpPacket|    To: TEAM1 @ site 1
+150316 142049.898|INFO|Thread-28|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 2 NEW from TEAM1 @ site 1 at 3 id=Clarification-5089562146275414938
+150316 142049.898|INFO|Thread-28|info| receiveObject(S) end   got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #38 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142104.847|INFO|AWT-EventQueue-0|submitClarification|submit clarification for Standard Input a
+150316 142104.847|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[CLARIFICATION_SUBMISSION] #8 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142104.848|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[CLARIFICATION_SUBMISSION] #8 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142104.868|INFO|Thread-30|info| receiveObject(S) start got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #40 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142104.868|INFO|Thread-30|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #40 ) recieveObject
+150316 142104.868|INFO|Thread-30|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142104.868|INFO|Thread-30|dumpPacket|    To: TEAM1 @ site 1
+150316 142104.869|INFO|Thread-30|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 3 NEW from TEAM1 @ site 1 at 3 id=Clarification--5076231714453382649
+150316 142104.869|INFO|Thread-30|info|handlePacket start Packet[CLARIFICATION_SUBMISSION_CONFIRM] #40 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142104.869|INFO|Thread-30|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #40 ) handlePacket
+150316 142104.869|INFO|Thread-30|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142104.870|INFO|Thread-30|dumpPacket|    To: TEAM1 @ site 1
+150316 142104.870|INFO|Thread-30|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 3 NEW from TEAM1 @ site 1 at 3 id=Clarification--5076231714453382649
+150316 142104.870|INFO|Thread-30|info| receiveObject(S) end   got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #40 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142107.341|INFO|AWT-EventQueue-0|submitClarification|submit clarification for Standard Input a
+150316 142107.342|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[CLARIFICATION_SUBMISSION] #9 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142107.342|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[CLARIFICATION_SUBMISSION] #9 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142107.362|INFO|Thread-32|info| receiveObject(S) start got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #41 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142107.362|INFO|Thread-32|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #41 ) recieveObject
+150316 142107.363|INFO|Thread-32|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142107.363|INFO|Thread-32|dumpPacket|    To: TEAM1 @ site 1
+150316 142107.363|INFO|Thread-32|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 4 NEW from TEAM1 @ site 1 at 3 id=Clarification-7784685980894870058
+150316 142107.363|INFO|Thread-32|info|handlePacket start Packet[CLARIFICATION_SUBMISSION_CONFIRM] #41 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142107.364|INFO|Thread-32|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #41 ) handlePacket
+150316 142107.364|INFO|Thread-32|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142107.364|INFO|Thread-32|dumpPacket|    To: TEAM1 @ site 1
+150316 142107.364|INFO|Thread-32|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 4 NEW from TEAM1 @ site 1 at 3 id=Clarification-7784685980894870058
+150316 142107.364|INFO|Thread-32|info| receiveObject(S) end   got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #41 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142111.333|INFO|AWT-EventQueue-0|submitClarification|submit clarification for Standard Input a
+150316 142111.334|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[CLARIFICATION_SUBMISSION] #10 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142111.334|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[CLARIFICATION_SUBMISSION] #10 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142111.368|INFO|Thread-34|info| receiveObject(S) start got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #42 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142111.370|INFO|Thread-34|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #42 ) recieveObject
+150316 142111.371|INFO|Thread-34|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142111.373|INFO|Thread-34|dumpPacket|    To: TEAM1 @ site 1
+150316 142111.373|INFO|Thread-34|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 5 NEW from TEAM1 @ site 1 at 3 id=Clarification-5741713858546827562
+150316 142111.374|INFO|Thread-34|info|handlePacket start Packet[CLARIFICATION_SUBMISSION_CONFIRM] #42 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142111.374|INFO|Thread-34|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #42 ) handlePacket
+150316 142111.374|INFO|Thread-34|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142111.374|INFO|Thread-34|dumpPacket|    To: TEAM1 @ site 1
+150316 142111.374|INFO|Thread-34|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 5 NEW from TEAM1 @ site 1 at 3 id=Clarification-5741713858546827562
+150316 142111.374|INFO|Thread-34|info| receiveObject(S) end   got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #42 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142114.830|INFO|AWT-EventQueue-0|submitClarification|submit clarification for Standard Input a
+150316 142114.830|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[CLARIFICATION_SUBMISSION] #11 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142114.830|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[CLARIFICATION_SUBMISSION] #11 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142114.854|INFO|Thread-36|info| receiveObject(S) start got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #43 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142114.855|INFO|Thread-36|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #43 ) recieveObject
+150316 142114.855|INFO|Thread-36|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142114.855|INFO|Thread-36|dumpPacket|    To: TEAM1 @ site 1
+150316 142114.855|INFO|Thread-36|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 6 NEW from TEAM1 @ site 1 at 3 id=Clarification--1789706521852150750
+150316 142114.856|INFO|Thread-36|info|handlePacket start Packet[CLARIFICATION_SUBMISSION_CONFIRM] #43 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142114.856|INFO|Thread-36|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #43 ) handlePacket
+150316 142114.856|INFO|Thread-36|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142114.857|INFO|Thread-36|dumpPacket|    To: TEAM1 @ site 1
+150316 142114.857|INFO|Thread-36|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 6 NEW from TEAM1 @ site 1 at 3 id=Clarification--1789706521852150750
+150316 142114.857|INFO|Thread-36|info| receiveObject(S) end   got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #43 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142116.861|INFO|AWT-EventQueue-0|submitClarification|submit clarification for Standard Input a
+150316 142116.862|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[CLARIFICATION_SUBMISSION] #12 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142116.862|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[CLARIFICATION_SUBMISSION] #12 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142116.881|INFO|Thread-38|info| receiveObject(S) start got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #44 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142116.882|INFO|Thread-38|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #44 ) recieveObject
+150316 142116.882|INFO|Thread-38|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142116.882|INFO|Thread-38|dumpPacket|    To: TEAM1 @ site 1
+150316 142116.882|INFO|Thread-38|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 7 NEW from TEAM1 @ site 1 at 3 id=Clarification-2484822645940654809
+150316 142116.882|INFO|Thread-38|info|handlePacket start Packet[CLARIFICATION_SUBMISSION_CONFIRM] #44 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142116.882|INFO|Thread-38|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #44 ) handlePacket
+150316 142116.883|INFO|Thread-38|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142116.883|INFO|Thread-38|dumpPacket|    To: TEAM1 @ site 1
+150316 142116.883|INFO|Thread-38|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 7 NEW from TEAM1 @ site 1 at 3 id=Clarification-2484822645940654809
+150316 142116.885|INFO|Thread-38|info| receiveObject(S) end   got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #44 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142144.300|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Standard Input Java file: /home/caleb/Documents/Test.java
+150316 142144.302|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #13 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142144.305|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #13 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142144.332|INFO|Thread-40|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #45 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142144.332|INFO|Thread-40|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #45 ) recieveObject
+150316 142144.333|INFO|Thread-40|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142144.333|INFO|Thread-40|dumpPacket|    To: TEAM1 @ site 1
+150316 142144.333|INFO|Thread-40|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 4 QUEUED_FOR_COMPUTER_JUDGEMENT259611 ms from TEAM1 @ site 1 id Run-7352737251963338666
+150316 142144.333|INFO|Thread-40|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #45 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142144.333|INFO|Thread-40|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #45 ) handlePacket
+150316 142144.333|INFO|Thread-40|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142144.333|INFO|Thread-40|dumpPacket|    To: TEAM1 @ site 1
+150316 142144.334|INFO|Thread-40|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 4 QUEUED_FOR_COMPUTER_JUDGEMENT259611 ms from TEAM1 @ site 1 id Run-7352737251963338666
+150316 142145.581|INFO|Thread-40|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #45 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142218.741|INFO|AWT-EventQueue-0|submitClarification|submit clarification for General faka you
+150316 142218.742|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[CLARIFICATION_SUBMISSION] #14 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142218.742|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[CLARIFICATION_SUBMISSION] #14 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142218.763|INFO|Thread-42|info| receiveObject(S) start got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #49 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142218.764|INFO|Thread-42|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #49 ) recieveObject
+150316 142218.764|INFO|Thread-42|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142218.764|INFO|Thread-42|dumpPacket|    To: TEAM1 @ site 1
+150316 142218.764|INFO|Thread-42|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 8 NEW from TEAM1 @ site 1 at 4 id=Clarification--5010261425224360016
+150316 142218.764|INFO|Thread-42|info|handlePacket start Packet[CLARIFICATION_SUBMISSION_CONFIRM] #49 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142218.764|INFO|Thread-42|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #49 ) handlePacket
+150316 142218.765|INFO|Thread-42|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142218.765|INFO|Thread-42|dumpPacket|    To: TEAM1 @ site 1
+150316 142218.765|INFO|Thread-42|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 8 NEW from TEAM1 @ site 1 at 4 id=Clarification--5010261425224360016
+150316 142218.765|INFO|Thread-42|info| receiveObject(S) end   got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #49 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142222.572|INFO|Thread-43|info| receiveObject(S) start got Packet[CLARIFICATION_ANSWER_UPDATE] #51 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142222.575|INFO|Thread-43|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #51 ) recieveObject
+150316 142222.576|INFO|Thread-43|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142222.576|INFO|Thread-43|dumpPacket|    To: TEAM1 @ site 1
+150316 142222.576|INFO|Thread-43|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 1 ANSWERED from TEAM1 @ site 1 at 2 id=Clarification--7189248014281604781
+150316 142222.576|INFO|Thread-43|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142222.576|INFO|Thread-43|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String Shyudup.
+150316 142222.576|INFO|Thread-43|info|handlePacket start Packet[CLARIFICATION_ANSWER_UPDATE] #51 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142222.576|INFO|Thread-43|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #51 ) handlePacket
+150316 142222.577|INFO|Thread-43|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142222.577|INFO|Thread-43|dumpPacket|    To: TEAM1 @ site 1
+150316 142222.577|INFO|Thread-43|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 1 ANSWERED from TEAM1 @ site 1 at 2 id=Clarification--7189248014281604781
+150316 142222.577|INFO|Thread-43|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142222.577|INFO|Thread-43|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String Shyudup.
+150316 142227.278|INFO|Thread-44|info| receiveObject(S) start got Packet[CLARIFICATION_ANSWER_UPDATE] #54 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142227.279|INFO|Thread-44|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #54 ) recieveObject
+150316 142227.279|INFO|Thread-44|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142227.279|INFO|Thread-44|dumpPacket|    To: TEAM1 @ site 1
+150316 142227.279|INFO|Thread-44|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 2 ANSWERED from TEAM1 @ site 1 at 3 id=Clarification-5089562146275414938
+150316 142227.279|INFO|Thread-44|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142227.279|INFO|Thread-44|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+150316 142227.279|INFO|Thread-44|info|handlePacket start Packet[CLARIFICATION_ANSWER_UPDATE] #54 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142227.279|INFO|Thread-44|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #54 ) handlePacket
+150316 142227.279|INFO|Thread-44|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142227.280|INFO|Thread-44|dumpPacket|    To: TEAM1 @ site 1
+150316 142227.280|INFO|Thread-44|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 2 ANSWERED from TEAM1 @ site 1 at 3 id=Clarification-5089562146275414938
+150316 142227.280|INFO|Thread-44|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142227.280|INFO|Thread-44|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+150316 142229.620|INFO|Thread-44|info| receiveObject(S) end   got Packet[CLARIFICATION_ANSWER_UPDATE] #54 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142230.565|INFO|Thread-43|info| receiveObject(S) end   got Packet[CLARIFICATION_ANSWER_UPDATE] #51 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142230.758|INFO|Thread-45|info| receiveObject(S) start got Packet[CLARIFICATION_ANSWER_UPDATE] #57 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142230.758|INFO|Thread-45|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #57 ) recieveObject
+150316 142230.758|INFO|Thread-45|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142230.758|INFO|Thread-45|dumpPacket|    To: TEAM1 @ site 1
+150316 142230.758|INFO|Thread-45|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 3 ANSWERED from TEAM1 @ site 1 at 3 id=Clarification--5076231714453382649
+150316 142230.759|INFO|Thread-45|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142230.759|INFO|Thread-45|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+150316 142230.759|INFO|Thread-45|info|handlePacket start Packet[CLARIFICATION_ANSWER_UPDATE] #57 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142230.759|INFO|Thread-45|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #57 ) handlePacket
+150316 142230.759|INFO|Thread-45|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142230.759|INFO|Thread-45|dumpPacket|    To: TEAM1 @ site 1
+150316 142230.759|INFO|Thread-45|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 3 ANSWERED from TEAM1 @ site 1 at 3 id=Clarification--5076231714453382649
+150316 142230.759|INFO|Thread-45|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142230.759|INFO|Thread-45|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+150316 142231.942|INFO|Thread-45|info| receiveObject(S) end   got Packet[CLARIFICATION_ANSWER_UPDATE] #57 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142233.720|INFO|Thread-46|info| receiveObject(S) start got Packet[CLARIFICATION_ANSWER_UPDATE] #60 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142233.720|INFO|Thread-46|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #60 ) recieveObject
+150316 142233.721|INFO|Thread-46|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142233.721|INFO|Thread-46|dumpPacket|    To: TEAM1 @ site 1
+150316 142233.721|INFO|Thread-46|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 4 ANSWERED from TEAM1 @ site 1 at 3 id=Clarification-7784685980894870058
+150316 142233.721|INFO|Thread-46|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142233.721|INFO|Thread-46|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+150316 142233.721|INFO|Thread-46|info|handlePacket start Packet[CLARIFICATION_ANSWER_UPDATE] #60 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142233.721|INFO|Thread-46|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #60 ) handlePacket
+150316 142233.721|INFO|Thread-46|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142233.721|INFO|Thread-46|dumpPacket|    To: TEAM1 @ site 1
+150316 142233.721|INFO|Thread-46|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 4 ANSWERED from TEAM1 @ site 1 at 3 id=Clarification-7784685980894870058
+150316 142233.722|INFO|Thread-46|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142233.722|INFO|Thread-46|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+150316 142235.478|INFO|Thread-46|info| receiveObject(S) end   got Packet[CLARIFICATION_ANSWER_UPDATE] #60 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142237.028|INFO|Thread-47|info| receiveObject(S) start got Packet[CLARIFICATION_ANSWER_UPDATE] #63 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142237.028|INFO|Thread-47|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #63 ) recieveObject
+150316 142237.028|INFO|Thread-47|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142237.028|INFO|Thread-47|dumpPacket|    To: TEAM1 @ site 1
+150316 142237.028|INFO|Thread-47|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 5 ANSWERED from TEAM1 @ site 1 at 3 id=Clarification-5741713858546827562
+150316 142237.029|INFO|Thread-47|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142237.029|INFO|Thread-47|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+150316 142237.029|INFO|Thread-47|info|handlePacket start Packet[CLARIFICATION_ANSWER_UPDATE] #63 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142237.029|INFO|Thread-47|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #63 ) handlePacket
+150316 142237.029|INFO|Thread-47|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142237.029|INFO|Thread-47|dumpPacket|    To: TEAM1 @ site 1
+150316 142237.029|INFO|Thread-47|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 5 ANSWERED from TEAM1 @ site 1 at 3 id=Clarification-5741713858546827562
+150316 142237.029|INFO|Thread-47|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142237.029|INFO|Thread-47|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+150316 142238.398|INFO|Thread-47|info| receiveObject(S) end   got Packet[CLARIFICATION_ANSWER_UPDATE] #63 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142240.157|INFO|Thread-48|info| receiveObject(S) start got Packet[CLARIFICATION_ANSWER_UPDATE] #66 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142240.157|INFO|Thread-48|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #66 ) recieveObject
+150316 142240.157|INFO|Thread-48|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142240.157|INFO|Thread-48|dumpPacket|    To: TEAM1 @ site 1
+150316 142240.158|INFO|Thread-48|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 6 ANSWERED from TEAM1 @ site 1 at 3 id=Clarification--1789706521852150750
+150316 142240.158|INFO|Thread-48|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142240.158|INFO|Thread-48|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+150316 142240.158|INFO|Thread-48|info|handlePacket start Packet[CLARIFICATION_ANSWER_UPDATE] #66 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142240.158|INFO|Thread-48|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #66 ) handlePacket
+150316 142240.158|INFO|Thread-48|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142240.158|INFO|Thread-48|dumpPacket|    To: TEAM1 @ site 1
+150316 142240.158|INFO|Thread-48|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 6 ANSWERED from TEAM1 @ site 1 at 3 id=Clarification--1789706521852150750
+150316 142240.159|INFO|Thread-48|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142240.159|INFO|Thread-48|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+150316 142241.257|INFO|Thread-48|info| receiveObject(S) end   got Packet[CLARIFICATION_ANSWER_UPDATE] #66 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142246.859|INFO|Thread-49|info| receiveObject(S) start got Packet[CLARIFICATION_ANSWER_UPDATE] #69 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142246.860|INFO|Thread-49|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #69 ) recieveObject
+150316 142246.860|INFO|Thread-49|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142246.860|INFO|Thread-49|dumpPacket|    To: TEAM1 @ site 1
+150316 142246.860|INFO|Thread-49|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 7 ANSWERED from TEAM1 @ site 1 at 3 id=Clarification-2484822645940654809
+150316 142246.860|INFO|Thread-49|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142246.860|INFO|Thread-49|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+150316 142246.860|INFO|Thread-49|info|handlePacket start Packet[CLARIFICATION_ANSWER_UPDATE] #69 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142246.861|INFO|Thread-49|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #69 ) handlePacket
+150316 142246.861|INFO|Thread-49|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142246.861|INFO|Thread-49|dumpPacket|    To: TEAM1 @ site 1
+150316 142246.861|INFO|Thread-49|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 7 ANSWERED from TEAM1 @ site 1 at 3 id=Clarification-2484822645940654809
+150316 142246.861|INFO|Thread-49|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142246.861|INFO|Thread-49|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+150316 142248.306|INFO|Thread-49|info| receiveObject(S) end   got Packet[CLARIFICATION_ANSWER_UPDATE] #69 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142250.747|INFO|Thread-50|info| receiveObject(S) start got Packet[CLARIFICATION_ANSWER_UPDATE] #72 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142250.748|INFO|Thread-50|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #72 ) recieveObject
+150316 142250.748|INFO|Thread-50|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142250.748|INFO|Thread-50|dumpPacket|    To: TEAM1 @ site 1
+150316 142250.748|INFO|Thread-50|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 8 ANSWERED from TEAM1 @ site 1 at 4 id=Clarification--5010261425224360016
+150316 142250.748|INFO|Thread-50|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142250.748|INFO|Thread-50|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+150316 142250.748|INFO|Thread-50|info|handlePacket start Packet[CLARIFICATION_ANSWER_UPDATE] #72 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142250.748|INFO|Thread-50|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #72 ) handlePacket
+150316 142250.748|INFO|Thread-50|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142250.749|INFO|Thread-50|dumpPacket|    To: TEAM1 @ site 1
+150316 142250.749|INFO|Thread-50|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 8 ANSWERED from TEAM1 @ site 1 at 4 id=Clarification--5010261425224360016
+150316 142250.749|INFO|Thread-50|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150316 142250.749|INFO|Thread-50|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+150316 142251.554|INFO|Thread-50|info| receiveObject(S) end   got Packet[CLARIFICATION_ANSWER_UPDATE] #72 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142317.570|INFO|Thread-51|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #75 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142317.570|INFO|Thread-51|dumpPacket|Packet RUN_JUDGEMENT (Seq #75 ) recieveObject
+150316 142317.570|INFO|Thread-51|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142317.570|INFO|Thread-51|dumpPacket|    To: TEAM1 @ site 1
+150316 142317.570|INFO|Thread-51|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150316 142317.571|INFO|Thread-51|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Compilation Error-2519521900228323525 id JudgementRecord-7579449852318119391
+150316 142317.571|INFO|Thread-51|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 4 JUDGED259611 ms from TEAM1 @ site 1 id Run-7352737251963338666
+150316 142317.571|INFO|Thread-51|info|handlePacket start Packet[RUN_JUDGEMENT] #75 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142317.571|INFO|Thread-51|dumpPacket|Packet RUN_JUDGEMENT (Seq #75 ) handlePacket
+150316 142317.571|INFO|Thread-51|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142317.571|INFO|Thread-51|dumpPacket|    To: TEAM1 @ site 1
+150316 142317.571|INFO|Thread-51|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150316 142317.571|INFO|Thread-51|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Compilation Error-2519521900228323525 id JudgementRecord-7579449852318119391
+150316 142317.571|INFO|Thread-51|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 4 JUDGED259611 ms from TEAM1 @ site 1 id Run-7352737251963338666
+150316 142321.965|INFO|Thread-51|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #75 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142435.452|INFO|Thread-52|info| receiveObject(S) start got Packet[UPDATE_SETTING] #80 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 142435.452|INFO|Thread-52|dumpPacket|Packet UPDATE_SETTING (Seq #80 ) recieveObject
+150316 142435.452|INFO|Thread-52|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142435.452|INFO|Thread-52|dumpPacket|    To: SERVER0 @ site 0
+150316 142435.452|INFO|Thread-52|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem Standard Input
+150316 142435.452|INFO|Thread-52|info|handlePacket start Packet[UPDATE_SETTING] #80 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 142435.452|INFO|Thread-52|dumpPacket|Packet UPDATE_SETTING (Seq #80 ) handlePacket
+150316 142435.453|INFO|Thread-52|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142435.453|INFO|Thread-52|dumpPacket|    To: SERVER0 @ site 0
+150316 142435.453|INFO|Thread-52|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem Standard Input
+150316 142435.455|INFO|Thread-52|info|handlePacket end Packet[UPDATE_SETTING] #80 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 142435.455|INFO|Thread-52|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #80 SERVER0 @ site 1 -> SERVER0 @ site 0
+150316 142459.419|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Standard Input Java file: /home/caleb/Documents/Test.java
+150316 142459.422|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #15 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142459.423|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #15 TEAM1 @ site 1 -> SERVER0 @ site 1
+150316 142459.443|INFO|Thread-54|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #81 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142459.444|INFO|Thread-54|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #81 ) recieveObject
+150316 142459.444|INFO|Thread-54|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142459.444|INFO|Thread-54|dumpPacket|    To: TEAM1 @ site 1
+150316 142459.444|INFO|Thread-54|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5 QUEUED_FOR_COMPUTER_JUDGEMENT454721 ms from TEAM1 @ site 1 id Run--280547459869061036
+150316 142459.444|INFO|Thread-54|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #81 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142459.444|INFO|Thread-54|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #81 ) handlePacket
+150316 142459.444|INFO|Thread-54|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142459.444|INFO|Thread-54|dumpPacket|    To: TEAM1 @ site 1
+150316 142459.445|INFO|Thread-54|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5 QUEUED_FOR_COMPUTER_JUDGEMENT454721 ms from TEAM1 @ site 1 id Run--280547459869061036
+150316 142500.533|INFO|Thread-55|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #85 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142500.534|INFO|Thread-55|dumpPacket|Packet RUN_JUDGEMENT (Seq #85 ) recieveObject
+150316 142500.534|INFO|Thread-55|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142500.534|INFO|Thread-55|dumpPacket|    To: TEAM1 @ site 1
+150316 142500.534|INFO|Thread-55|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150316 142500.534|INFO|Thread-55|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Compilation Error-2519521900228323525 id JudgementRecord-3570914411243691911
+150316 142500.534|INFO|Thread-55|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5 JUDGED454721 ms from TEAM1 @ site 1 id Run--280547459869061036
+150316 142500.534|INFO|Thread-55|info|handlePacket start Packet[RUN_JUDGEMENT] #85 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142500.534|INFO|Thread-55|dumpPacket|Packet RUN_JUDGEMENT (Seq #85 ) handlePacket
+150316 142500.535|INFO|Thread-55|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150316 142500.535|INFO|Thread-55|dumpPacket|    To: TEAM1 @ site 1
+150316 142500.535|INFO|Thread-55|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150316 142500.535|INFO|Thread-55|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Compilation Error-2519521900228323525 id JudgementRecord-3570914411243691911
+150316 142500.535|INFO|Thread-55|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5 JUDGED454721 ms from TEAM1 @ site 1 id Run--280547459869061036
+150316 142502.647|INFO|Thread-55|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #85 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 142504.851|INFO|Thread-54|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #81 SERVER0 @ site 1 -> TEAM1 @ site 1
+150316 143017.435|INFO|Thread-1|info|connectionDropped: shutting down TEAM1 @ site 1

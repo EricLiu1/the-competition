@@ -1,0 +1,8 @@
+150317 140011.972|CONFIG|main|setFileHandlers|Now logging to /home/caleb/pc2-9.2.4/bin/logs directory.
+150317 140011.982|INFO|main|info|
+150317 140012.003|INFO|main|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.8.0_31 build 2837 Linux 3.18.9-200.fc21.x86_64 (amd64) 
+150317 140012.004|INFO|main|startLog|Working directory is /home/caleb/pc2-9.2.4/bin
+150317 140012.032|INFO|main|startLog|Process id is 2250@localhost.localdomain
+150317 140012.033|INFO|main|start|Starting ConnectionManager...
+150317 140012.166|INFO|main|start|Started ConnectionManager
+150317 140012.170|INFO|main|info|Starting Server Transport...

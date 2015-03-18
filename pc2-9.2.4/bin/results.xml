@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<contestStandings>
+  <standingsHeader currentDate="Tue Mar 17 14:07:07 CDT 2015" generatorId="$Id: DefaultScoringAlgorithm.java 2534 2012-04-18 02:27:12Z boudreat $" groupCount="1" medianProblemsSolved="1" problemCount="1" problemsAttempted="1" siteCount="1" systemName="CSUS Programming Contest System" systemURL="http://pc2.ecs.csus.edu/" systemVersion="9.2.4 20140920 build 2837" title="Programming Contest" totalAttempts="6" totalSolved="1">
+    <groupList/>
+    <colorList/>
+    <problem attempts="6" bestSolutionTime="303" id="1" lastSolutionTime="303" numberSolved="1" title="Standard Input"/>
+  </standingsHeader>
+  <teamStanding firstSolved="303" index="0" lastSolved="303" points="403" problemsAttempted="1" rank="1" solved="1" teamAlias="team1 (not aliasesd)" teamExternalId="" teamId="1" teamKey="1TEAM1" teamName="team1" teamSiteId="1" totalAttempts="6">
+    <problemSummaryInfo attempts="6" index="1" isPending="false" isSolved="true" points="403" problemId="Standard Input-5153142618127879407" solutionTime="303"/>
+  </teamStanding>
+</contestStandings>

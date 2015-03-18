@@ -1,0 +1,154 @@
+150317 140429.854|CONFIG|Thread-3|setFileHandlers|Now logging to /home/caleb/pc2-9.2.4/bin/logs directory.
+150317 140429.854|INFO|Thread-3|info|
+150317 140429.854|INFO|Thread-3|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.8.0_31 build 2837 Linux 3.18.9-200.fc21.x86_64 (amd64) 
+150317 140429.854|INFO|Thread-3|info|Login: scoreboard1 (aka scoreboard1)
+150317 140429.854|INFO|Thread-3|startLog|Working directory is /home/caleb/pc2-9.2.4/bin
+150317 140429.854|INFO|Thread-3|startLog|Process id is 2482@localhost.localdomain
+150317 140429.856|INFO|Thread-3|info|Attempting to load UI class edu.csus.ecs.pc2.ui.board.ScoreboardView
+150317 140429.892|INFO|Thread-3|info|Loaded UI class edu.csus.ecs.pc2.ui.board.ScoreboardView
+150317 140429.893|INFO|Thread-3|setContestAndController|Using XSL from directory /home/caleb/pc2-9.2.4/data/xsl
+150317 140430.054|INFO|Thread-3|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+150317 140430.056|INFO|Thread-3|info|handlePacket end Packet[LOGIN_SUCCESS] #14 SERVER0 @ site 1 -> SCOREBOARD1 @ site 1
+150317 140430.057|INFO|Thread-3|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #14 SERVER0 @ site 1 -> SCOREBOARD1 @ site 1
+150317 140430.447|FINE|AWT-EventQueue-0|generateOutput|Sending output to /home/caleb/pc2-9.2.4/bin/html
+150317 140430.882|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/fullnums.html succeeded.
+150317 140430.946|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/summary.html succeeded.
+150317 140430.969|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/full.html succeeded.
+150317 140431.033|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/sumatt.html succeeded.
+150317 140431.080|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/pc2export.dat succeeded.
+150317 140431.131|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/sumtime.html succeeded.
+150317 140431.162|FINE|AWT-EventQueue-0|addTestRow|addTestRow no balloonSettings for site 1
+150317 140431.164|FINE|AWT-EventQueue-0|addTestRow|addTestRow no balloonSettings for site 1
+150317 140500.759|FINE|Thread-4|generateOutput|Sending output to /home/caleb/pc2-9.2.4/bin/html
+150317 140500.781|DEBUG|Thread-4|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/fullnums.html succeeded.
+150317 140500.814|DEBUG|Thread-4|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/summary.html succeeded.
+150317 140500.828|DEBUG|Thread-4|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/full.html succeeded.
+150317 140500.852|DEBUG|Thread-4|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/sumatt.html succeeded.
+150317 140500.865|DEBUG|Thread-4|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/pc2export.dat succeeded.
+150317 140500.889|DEBUG|Thread-4|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/sumtime.html succeeded.
+150317 140521.384|INFO|Thread-5|info| receiveObject(S) start got Packet[CLOCK_STOPPED] #16 SERVER0 @ site 1 -> SERVER0 @ site 0
+150317 140521.384|INFO|Thread-5|dumpPacket|Packet CLOCK_STOPPED (Seq #16 ) recieveObject
+150317 140521.385|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150317 140521.385|INFO|Thread-5|dumpPacket|    To: SERVER0 @ site 0
+150317 140521.385|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+150317 140521.385|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+150317 140521.386|INFO|Thread-5|info|handlePacket start Packet[CLOCK_STOPPED] #16 SERVER0 @ site 1 -> SERVER0 @ site 0
+150317 140521.386|INFO|Thread-5|dumpPacket|Packet CLOCK_STOPPED (Seq #16 ) handlePacket
+150317 140521.386|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150317 140521.386|INFO|Thread-5|dumpPacket|    To: SERVER0 @ site 0
+150317 140521.386|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+150317 140521.387|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+150317 140521.388|INFO|Thread-5|info|Clock for site 1 stopped by ADMINISTRATOR1 @ site 1 elapsed 5:02:22
+150317 140521.388|INFO|Thread-5|info| receiveObject(S) end   got Packet[CLOCK_STOPPED] #16 SERVER0 @ site 1 -> SERVER0 @ site 0
+150317 140536.611|INFO|Thread-6|info| receiveObject(S) start got Packet[CLOCK_STARTED] #17 SERVER0 @ site 1 -> SERVER0 @ site 0
+150317 140536.612|INFO|Thread-6|dumpPacket|Packet CLOCK_STARTED (Seq #17 ) recieveObject
+150317 140536.613|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150317 140536.613|INFO|Thread-6|dumpPacket|    To: SERVER0 @ site 0
+150317 140536.613|INFO|Thread-6|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+150317 140536.615|INFO|Thread-6|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+150317 140536.615|INFO|Thread-6|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1426619136800,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2015,MONTH=2,WEEK_OF_YEAR=12,WEEK_OF_MONTH=3,DAY_OF_MONTH=17,DAY_OF_YEAR=76,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=5,SECOND=36,MILLISECOND=800,ZONE_OFFSET=0,DST_OFFSET=0]
+150317 140536.615|INFO|Thread-6|info|handlePacket start Packet[CLOCK_STARTED] #17 SERVER0 @ site 1 -> SERVER0 @ site 0
+150317 140536.616|INFO|Thread-6|dumpPacket|Packet CLOCK_STARTED (Seq #17 ) handlePacket
+150317 140536.616|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150317 140536.616|INFO|Thread-6|dumpPacket|    To: SERVER0 @ site 0
+150317 140536.616|INFO|Thread-6|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+150317 140536.617|INFO|Thread-6|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+150317 140536.617|INFO|Thread-6|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1426619136800,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2015,MONTH=2,WEEK_OF_YEAR=12,WEEK_OF_MONTH=3,DAY_OF_MONTH=17,DAY_OF_YEAR=76,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=5,SECOND=36,MILLISECOND=800,ZONE_OFFSET=0,DST_OFFSET=0]
+150317 140536.618|INFO|Thread-6|info|Clock for site 1 started by ADMINISTRATOR1 @ site 1 elapsed 5:02:22
+150317 140536.618|INFO|Thread-6|info| receiveObject(S) end   got Packet[CLOCK_STARTED] #17 SERVER0 @ site 1 -> SERVER0 @ site 0
+150317 140638.626|INFO|Thread-7|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #21 SERVER0 @ site 1 -> TEAM1 @ site 1
+150317 140638.634|INFO|Thread-7|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #21 ) recieveObject
+150317 140638.635|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150317 140638.645|INFO|Thread-7|dumpPacket|    To: TEAM1 @ site 1
+150317 140638.646|INFO|Thread-7|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 QUEUED_FOR_COMPUTER_JUDGEMENT18204877 ms from TEAM1 @ site 1 id Run--228489747055304350
+150317 140638.652|INFO|Thread-7|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #21 SERVER0 @ site 1 -> TEAM1 @ site 1
+150317 140638.653|INFO|Thread-7|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #21 ) handlePacket
+150317 140638.653|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150317 140638.653|INFO|Thread-7|dumpPacket|    To: TEAM1 @ site 1
+150317 140638.654|INFO|Thread-7|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 QUEUED_FOR_COMPUTER_JUDGEMENT18204877 ms from TEAM1 @ site 1 id Run--228489747055304350
+150317 140638.663|INFO|Thread-7|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #21 SERVER0 @ site 1 -> TEAM1 @ site 1
+150317 140638.694|INFO|Thread-8|info| receiveObject(S) start got Packet[RUN_CHECKOUT_NOTIFICATION] #24 SERVER0 @ site 1 -> JUDGE1 @ site 1
+150317 140638.694|INFO|Thread-8|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #24 ) recieveObject
+150317 140638.695|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150317 140638.695|INFO|Thread-8|dumpPacket|    To: JUDGE1 @ site 1
+150317 140638.695|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 BEING_JUDGED18204877 ms from TEAM1 @ site 1 id Run--228489747055304350
+150317 140638.695|INFO|Thread-8|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150317 140638.695|INFO|Thread-8|info|handlePacket start Packet[RUN_CHECKOUT_NOTIFICATION] #24 SERVER0 @ site 1 -> JUDGE1 @ site 1
+150317 140638.695|INFO|Thread-8|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #24 ) handlePacket
+150317 140638.696|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150317 140638.696|INFO|Thread-8|dumpPacket|    To: JUDGE1 @ site 1
+150317 140638.696|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 BEING_JUDGED18204877 ms from TEAM1 @ site 1 id Run--228489747055304350
+150317 140638.696|INFO|Thread-8|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150317 140638.697|INFO|Thread-8|info|handlePacket end Packet[RUN_CHECKOUT_NOTIFICATION] #24 SERVER0 @ site 1 -> JUDGE1 @ site 1
+150317 140638.697|INFO|Thread-8|info| receiveObject(S) end   got Packet[RUN_CHECKOUT_NOTIFICATION] #24 SERVER0 @ site 1 -> JUDGE1 @ site 1
+150317 140638.711|FINE|AWT-EventQueue-0|generateOutput|Sending output to /home/caleb/pc2-9.2.4/bin/html
+150317 140638.755|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/fullnums.html succeeded.
+150317 140638.845|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/summary.html succeeded.
+150317 140638.873|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/full.html succeeded.
+150317 140638.903|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/sumatt.html succeeded.
+150317 140638.926|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/pc2export.dat succeeded.
+150317 140638.953|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/sumtime.html succeeded.
+150317 140643.788|INFO|Thread-9|info| receiveObject(S) start got Packet[RUN_JUDGEMENT_UPDATE] #26 SERVER0 @ site 1 -> SERVER0 @ site 0
+150317 140643.789|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #26 ) recieveObject
+150317 140643.789|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150317 140643.789|INFO|Thread-9|dumpPacket|    To: SERVER0 @ site 0
+150317 140643.790|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 JUDGED18204877 ms from TEAM1 @ site 1 id Run--228489747055304350
+150317 140643.790|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150317 140643.790|INFO|Thread-9|info|handlePacket start Packet[RUN_JUDGEMENT_UPDATE] #26 SERVER0 @ site 1 -> SERVER0 @ site 0
+150317 140643.790|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #26 ) handlePacket
+150317 140643.791|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150317 140643.791|INFO|Thread-9|dumpPacket|    To: SERVER0 @ site 0
+150317 140643.791|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 JUDGED18204877 ms from TEAM1 @ site 1 id Run--228489747055304350
+150317 140643.792|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150317 140643.792|INFO|Thread-9|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT_UPDATE] #26 SERVER0 @ site 1 -> SERVER0 @ site 0
+150317 140643.817|FINE|AWT-EventQueue-0|generateOutput|Sending output to /home/caleb/pc2-9.2.4/bin/html
+150317 140643.836|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/fullnums.html succeeded.
+150317 140643.863|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/summary.html succeeded.
+150317 140643.886|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/full.html succeeded.
+150317 140643.945|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/sumatt.html succeeded.
+150317 140643.972|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/pc2export.dat succeeded.
+150317 140644.000|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/sumtime.html succeeded.
+150317 140702.802|INFO|Thread-10|info| receiveObject(S) start got Packet[RUN_REJUDGE_CHECKOUT] #27 SERVER0 @ site 1 -> JUDGE1 @ site 1
+150317 140702.803|INFO|Thread-10|dumpPacket|Packet RUN_REJUDGE_CHECKOUT (Seq #27 ) recieveObject
+150317 140702.808|INFO|Thread-10|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150317 140702.810|INFO|Thread-10|dumpPacket|    To: JUDGE1 @ site 1
+150317 140702.812|INFO|Thread-10|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@6f482462
+150317 140702.813|INFO|Thread-10|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150317 140702.813|INFO|Thread-10|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 BEING_RE_JUDGED18204877 ms from TEAM1 @ site 1 id Run--228489747055304350
+150317 140702.813|INFO|Thread-10|info|handlePacket start Packet[RUN_REJUDGE_CHECKOUT] #27 SERVER0 @ site 1 -> JUDGE1 @ site 1
+150317 140702.813|INFO|Thread-10|dumpPacket|Packet RUN_REJUDGE_CHECKOUT (Seq #27 ) handlePacket
+150317 140702.813|INFO|Thread-10|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150317 140702.814|INFO|Thread-10|dumpPacket|    To: JUDGE1 @ site 1
+150317 140702.814|INFO|Thread-10|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@6f482462
+150317 140702.814|INFO|Thread-10|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150317 140702.814|INFO|Thread-10|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 BEING_RE_JUDGED18204877 ms from TEAM1 @ site 1 id Run--228489747055304350
+150317 140702.815|INFO|Thread-10|info|handlePacket end Packet[RUN_REJUDGE_CHECKOUT] #27 SERVER0 @ site 1 -> JUDGE1 @ site 1
+150317 140702.815|INFO|Thread-10|info| receiveObject(S) end   got Packet[RUN_REJUDGE_CHECKOUT] #27 SERVER0 @ site 1 -> JUDGE1 @ site 1
+150317 140702.823|FINE|AWT-EventQueue-0|generateOutput|Sending output to /home/caleb/pc2-9.2.4/bin/html
+150317 140702.840|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/fullnums.html succeeded.
+150317 140702.862|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/summary.html succeeded.
+150317 140702.874|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/full.html succeeded.
+150317 140702.895|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/sumatt.html succeeded.
+150317 140702.906|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/pc2export.dat succeeded.
+150317 140702.928|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/sumtime.html succeeded.
+150317 140707.177|INFO|Thread-11|info| receiveObject(S) start got Packet[RUN_JUDGEMENT_UPDATE] #29 SERVER0 @ site 1 -> SERVER0 @ site 0
+150317 140707.178|INFO|Thread-11|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #29 ) recieveObject
+150317 140707.178|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150317 140707.178|INFO|Thread-11|dumpPacket|    To: SERVER0 @ site 0
+150317 140707.178|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 JUDGED18204877 ms from TEAM1 @ site 1 id Run--228489747055304350
+150317 140707.179|INFO|Thread-11|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150317 140707.179|INFO|Thread-11|info|handlePacket start Packet[RUN_JUDGEMENT_UPDATE] #29 SERVER0 @ site 1 -> SERVER0 @ site 0
+150317 140707.179|INFO|Thread-11|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #29 ) handlePacket
+150317 140707.179|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (002L3007-484713 @ 10.64.29.105) (Contest Id: Default-329526034983470947)
+150317 140707.179|INFO|Thread-11|dumpPacket|    To: SERVER0 @ site 0
+150317 140707.180|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 JUDGED18204877 ms from TEAM1 @ site 1 id Run--228489747055304350
+150317 140707.180|INFO|Thread-11|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+150317 140707.180|INFO|Thread-11|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT_UPDATE] #29 SERVER0 @ site 1 -> SERVER0 @ site 0
+150317 140707.197|FINE|AWT-EventQueue-0|generateOutput|Sending output to /home/caleb/pc2-9.2.4/bin/html
+150317 140707.237|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/fullnums.html succeeded.
+150317 140707.291|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/summary.html succeeded.
+150317 140707.343|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/full.html succeeded.
+150317 140707.432|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/sumatt.html succeeded.
+150317 140707.465|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/pc2export.dat succeeded.
+150317 140707.508|DEBUG|AWT-EventQueue-0|generateOutput|rename to /home/caleb/pc2-9.2.4/bin/html/sumtime.html succeeded.
+150317 142929.954|INFO|Thread-1|info|connectionDropped: shutting down SCOREBOARD1 @ site 1
