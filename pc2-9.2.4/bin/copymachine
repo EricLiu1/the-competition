@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo "Starting full.html updates..."
+
+COUNTER="0"
+
+while [ 1 ]; do
+	echo "Update $COUNTER"
+	cp -u "$HOME/pc2-9.2.4/bin/html/full.html" "$HOME/Documents/the-competition"
+	COUNTER=$(( COUNTER + 1 ))
+	I=0
+	while [ I -lt 29 ]; do
+		echo $I
+		I+=1
+		sleep 1;
+	done;
+done
+
+exit 0
