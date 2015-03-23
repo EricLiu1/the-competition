@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd $HOME/pc2-9.2.4/bin
+
+./pc2team
